@@ -92,6 +92,18 @@ Follow these steps to run the project locally.
 4.  **Open in Browser:**
     Navigate to `http://localhost:3000` to see the application running.
 
+## 🚀 Deploy on Render
+
+This project is a **Next.js server app**, so deploy it as a **Web Service** on Render (not Static Site).
+
+- Build command: `npm install && npm run build`
+- Start command: `npm run start`
+- Node version: `20`
+
+If you use Render Blueprint, this repo already includes `render.yaml` with the correct settings.
+
+> `Publish directory out does not exist` means Render is currently configured as a static site. Switch to **Web Service** or re-create the service as Web Service.
+
 ## 📂 Project Structure
 
 ```bash
